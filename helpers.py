@@ -2,7 +2,7 @@ import random
 import numpy
 import glob
 import os
-from cv2 import cv2
+import cv2
 import settings
 from helpers_dicom import DicomWrapper
 from scipy.ndimage.interpolation import map_coordinates
