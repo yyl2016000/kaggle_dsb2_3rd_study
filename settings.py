@@ -3,7 +3,6 @@ BASE_PREPROCESSEDIMAGES_DIR = BASE_DIR + "/data_preprocessed_images/"
 BASE_TRAIN_SEGMENT_DIR = BASE_DIR + "/data_segmenter_trainset/"
 PATIENT_PRED_DIR = BASE_DIR + "/data_patient_predictions/"
 
-# 这里的路径可能有一点问题
 # Quick mode does away with training in different folds.
 # It does overfit a little in the calibration and submission step.
 # However it still scores ~0.010552 on the private LB which is enough for the 3rd place

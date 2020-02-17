@@ -5,7 +5,7 @@ import pandas
 from helpers_dicom import *
 import scipy
 import scipy.misc
-from cv2 import cv2
+import cv2
 
 def create_csv_data():
     print "Creating csv file from dicom data"

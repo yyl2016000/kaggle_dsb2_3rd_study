@@ -82,7 +82,7 @@ def enumerate_sax_files(patient_ids=None, filter_slice_type="sax"):
 
                     parts = root.split('/')
                     patient_id = parts[len(parts) - 3]
-                    slice_type = parts[len(parts) - 1]
+                    slice_type = parts[len(parts) - 1]  # slice_type,短轴扫描序列号
                     if filter_slice_type not in slice_type:
                         continue
 
